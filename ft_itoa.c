@@ -6,7 +6,7 @@
 /*   By: kfujita <kfujita@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 06:34:36 by kfujita           #+#    #+#             */
-/*   Updated: 2022/04/18 21:16:15 by kfujita          ###   ########.fr       */
+/*   Updated: 2022/04/19 05:50:12 by kfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,6 @@ static long	ft_absl(long v)
 		return (v);
 	else
 		return (v * -1);
-
 }
 
 char	*ft_itoa(int n)
