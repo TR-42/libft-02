@@ -6,7 +6,7 @@
 /*   By: kfujita <kfujita@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 04:49:14 by kfujita           #+#    #+#             */
-/*   Updated: 2022/04/18 04:59:26 by kfujita          ###   ########.fr       */
+/*   Updated: 2022/04/19 05:39:06 by kfujita          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		return (NULL);
 	ft_memmove(p_ret, s1, s1_len);
 	ft_memmove(p_ret + s1_len, s2, s2_len);
+	p_ret[s1_len + s2_len] = '\0';
 	return (p_ret);
 }
